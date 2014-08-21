@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista de Alunos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_formulario">Formulário</string>
+    <string name="title_activity_provas">Provas</string>
+
+    <!-- Formulario -->
+    <string name="form_label_name">Nome:</string>
+    <string name="form_label_address">Endereço:</string>
+    <string name="form_label_phone">Telefone:</string>
+    <string name="form_label_site">Site:</string>
+    <string name="form_label_grade">Nota:</string>
+    <string name="form_button_save">Salvar</string>
+    <string name="form_button_clear">Limpar Campos</string>
+    <!-- /Formulario -->
+
+
+    <!-- Action Bar -->
+    <string name="form_action_bar_new">Novo</string>
+    <string name="form_action_bar_map">Mapa</string>
+    <string name="form_action_bar_options">Opções</string>
+    <string name="form_action_bar_send">Enviar</string>
+    <string name="form_action_bar_receive">Receber</string>
+    <string name="form_action_bar_pref">Preferências</string>
+    <!-- /Action Bar -->
+
+
+    <!-- Menu de Contexto -->
+    <string name="menu_contexto_deletar_ligar">Ligar</string>
+    <string name="menu_contexto_deletar_sms">SMS</string>
+    <string name="menu_contexto_deletar_navegar">Navegar no Site</string>
+    <string name="menu_contexto_deletar_deletar">Deletar</string>
+    <string name="menu_contexto_deletar_enviar">Enviar</string>
+    <!-- /Menu de Contexto -->
+
+
+    <!-- Textos Alert -->
+    <string name="alert_deletar_mensagem">Tem certeza que deseja deletar o aluno</string>
+    <string name="alert_deletar_mensagem_complemento">da lista?</string>
+    <string name="alert_deletar_positive_button">Ok</string>
+    <string name="alert_deletar_negative_button">Não</string>
+    <!-- /Textos Alert -->
+
+
+    <!-- Detalhes de uma Prova -->
+    <string name="detalhe_prova_titulo">Detalhes da Prova</string>
+    <string name="detalhe_prova_titulo_materia">Matéria:</string>
+    <string name="detalhe_prova_titulo_data">Data:</string>
+
+    <!-- /Detalhes de uma Prova -->
+
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_mostra_alunos_proximos">Alunos Próximos</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cadastrocaelum.FormularioActivity" >
+    
+    <item 
+        android:id="@+id/menu_mapa"
+		android:showAsAction="always"
+        android:icon="@drawable/ic_mapa"
+        android:title="@string/form_action_bar_map"
+        />
+    <item 
+        android:id="@+id/menu_opcoes"
+        android:showAsAction="always"
+        android:title="@string/form_action_bar_options"
+        android:icon="@drawable/ic_opcoes">
+        <menu>
+            <item 
+		        android:id="@+id/menu_enviar_provas"
+		        android:showAsAction="always"
+		        android:icon="@drawable/ic_enviar"
+		        android:title="@string/form_action_bar_send"
+		        />
+            <item 
+		        android:id="@+id/menu_receber_provas"
+		        android:showAsAction="always"
+		        android:icon="@drawable/ic_receber"
+		        android:title="@string/form_action_bar_receive"
+		        />
+		    <item 
+		        android:id="@+id/menu_preferencias"
+		        android:showAsAction="always"
+		        android:icon="@drawable/ic_preferencias"
+		        android:title="@string/form_action_bar_pref"
+		        />
+        </menu>
+    </item>
+</menu>
