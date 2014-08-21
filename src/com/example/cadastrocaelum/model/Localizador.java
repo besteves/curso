@@ -27,6 +27,7 @@ public class Localizador {
 				return null;
 			}
 		} catch(Exception e) {
+			e.printStackTrace();
 			return null;
 		}
 	}
